@@ -17,3 +17,13 @@ btn.addEventListener('click', function(){
     };
 });
 
+//disegna il quadrato qui
+function drawSquare(squareIndex){
+    const square = document.createElement('div');
+    square.classList.add('square');
+    square.innerHTML = squareIndex + 1; 
+    square.addEventListener('click', function(){
+        square.classList.add('active');
+    });
+    return square; 
+}
