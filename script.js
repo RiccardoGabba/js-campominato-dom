@@ -1,6 +1,9 @@
 const btn = document.querySelector('button');
 
 btn.addEventListener('click', function(){
+    //fa sparire il bottone dopo il primo click
+    btn.style.display = 'none';
+    
     //numero di quadratini generati
     const numSquare = 64;
 
@@ -30,3 +33,4 @@ function drawSquare(squareIndex){
     });
     return square; 
 }
+
