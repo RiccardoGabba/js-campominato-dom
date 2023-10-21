@@ -10,8 +10,12 @@
 .button{
     margin: 0 auto;
     display: block;
-}
-
+} 
+.contenitore-bottone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
 .square{
     border: 2px solid white;
     width: calc(100% / 8);
