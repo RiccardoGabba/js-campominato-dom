@@ -16,8 +16,12 @@
     border: 2px solid white;
     width: calc(100% / 8);
     height: calc(100% / 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .active{
-    background-color: red;
+    background-color: purple;
 }

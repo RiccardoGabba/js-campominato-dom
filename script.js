@@ -14,6 +14,7 @@ btn.addEventListener('click', function(){
         //attacco il quadratino alla griglia
         playGround.append(square);
         console.log(square)
+        square.style.color = 'black';
     };
 });
 
@@ -24,6 +25,8 @@ function drawSquare(squareIndex){
     square.innerHTML = squareIndex + 1; 
     square.addEventListener('click', function(){
         square.classList.add('active');
+        square.style.color = 'white';
+        
     });
     return square; 
 }
